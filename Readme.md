@@ -1,5 +1,7 @@
 # Sudoku Solver using Contraint Propagation and Backtracking
 
+Available on Kaggle with 1 million Sudokus: https://www.kaggle.com/aurbano/sudoku-solver-backtracking-100-accuracy
+
 ## Installing
 
 Run `pipenv install` to install the dependencies, then `pipenv shell` to activate it
