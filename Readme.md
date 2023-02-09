@@ -68,7 +68,7 @@ After a few iterations it will either land on a solution to the puzzle, or it wi
 
 ## Results
 
-The algorithm solves all provided sudokus plus additional hard ones found online for additional validation. Sudokus that can be solved with constraint propagation alone take on average 3 ms on my machine, and hard valid ones range from 30-100 ms, with hard invalid ones reaching up to 300s as it may need to exhaust the search space.
+The algorithm solves all provided sudokus plus additional hard ones found online for additional validation. Sudokus that can be solved with constraint propagation alone take on average 3 ms on my machine, and hard valid ones range from 30-100 ms, with hard invalid ones reaching up to 300 ms as it may need to exhaust the search space.
 
 In order to reach these numbers I profiled the code using cProfiler [4] and inspected the results with gprof2dot [5] and SnakeViz [6]. See Figure 1 below for the graph generated while solving all 15 hard sudokus.
 
