@@ -50,7 +50,7 @@ When a sudoku is invalid, some cells may end up with no possible values left - i
 
 When this queue is empty, some cells will be filled in with final values, and the possible values will have been narrowed down. In some cases all cells will have final values, in which case the sudoku is solved.
 
-For the constraints I decided to only use the three fundamental constraints of a Sudoku (no duplicates in the same row, column, or 3x3 square). I took this decision after profiling the execution time of more complex checks (such as naked twins, scanning in one/two directions, single candidates [2]... ), founding that the execution time got worse as they require too many traversals.
+For the constraints I decided to only use the three fundamental constraints of a Sudoku (no duplicates in the same row, column, or 3x3 square). I took this decision after profiling the execution time of more complex checks (such as naked twins, scanning in one/two directions, single candidates [2]... ), finding that the execution time got worse as they require too many traversals.
 
 ### Search with Backtracking
 
